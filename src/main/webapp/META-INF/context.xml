@@ -1,0 +1,8 @@
+<Context>
+	<Resource name="jdbc/BookData" auth="Container"
+		type="javax.sql.DataSource" maxActive="20" maxIdle="5" maxWait="10000"
+		username="sa" password="Password.1"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		url="jdbc:sqlserver://localhost:1433;DatabaseName=BookData;encrypt=true;trustServerCertificate=true;">
+	</Resource>
+</Context>
