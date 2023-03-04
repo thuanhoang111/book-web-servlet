@@ -27,6 +27,12 @@ public class Book {
 	public float getPrice() {
 		return price;
 	}
+	public Book(String bookName, String nXB, float price) {
+		super();
+		this.bookName = bookName;
+		NXB = nXB;
+		this.price = price;
+	}
 	public void setPrice(float price) {
 		this.price = price;
 	}
